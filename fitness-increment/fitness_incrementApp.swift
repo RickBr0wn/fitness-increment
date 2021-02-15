@@ -11,7 +11,7 @@ import SwiftUI
 struct fitness_incrementApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LandingView()
         }
     }
 }

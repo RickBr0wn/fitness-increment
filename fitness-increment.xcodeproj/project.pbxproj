@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		11EC419425DA902F00C8036A /* fitness_incrementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EC419325DA902F00C8036A /* fitness_incrementApp.swift */; };
-		11EC419625DA902F00C8036A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EC419525DA902F00C8036A /* ContentView.swift */; };
+		11EC419625DA902F00C8036A /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EC419525DA902F00C8036A /* LandingView.swift */; };
 		11EC419825DA903200C8036A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EC419725DA903200C8036A /* Assets.xcassets */; };
 		11EC419B25DA903200C8036A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11EC419A25DA903200C8036A /* Preview Assets.xcassets */; };
+		11EC41A525DA979C00C8036A /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EC41A425DA979C00C8036A /* PrimaryButtonStyle.swift */; };
+		11EC41A825DA993C00C8036A /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11EC41A725DA993C00C8036A /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11EC419025DA902F00C8036A /* fitness-increment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fitness-increment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11EC419325DA902F00C8036A /* fitness_incrementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitness_incrementApp.swift; sourceTree = "<group>"; };
-		11EC419525DA902F00C8036A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11EC419525DA902F00C8036A /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		11EC419725DA903200C8036A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11EC419A25DA903200C8036A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		11EC419C25DA903200C8036A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11EC41A425DA979C00C8036A /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
+		11EC41A725DA993C00C8036A /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				11EC419325DA902F00C8036A /* fitness_incrementApp.swift */,
-				11EC419525DA902F00C8036A /* ContentView.swift */,
+				11EC419525DA902F00C8036A /* LandingView.swift */,
 				11EC419725DA903200C8036A /* Assets.xcassets */,
 				11EC419C25DA903200C8036A /* Info.plist */,
 				11EC419925DA903200C8036A /* Preview Content */,
+				11EC41A425DA979C00C8036A /* PrimaryButtonStyle.swift */,
+				11EC41A725DA993C00C8036A /* Color+Extension.swift */,
 			);
 			path = "fitness-increment";
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11EC419625DA902F00C8036A /* ContentView.swift in Sources */,
+				11EC41A525DA979C00C8036A /* PrimaryButtonStyle.swift in Sources */,
+				11EC419625DA902F00C8036A /* LandingView.swift in Sources */,
 				11EC419425DA902F00C8036A /* fitness_incrementApp.swift in Sources */,
+				11EC41A825DA993C00C8036A /* Color+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
