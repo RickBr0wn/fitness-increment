@@ -8,15 +8,20 @@
 import SwiftUI
 
 struct CreateView: View {
+  @StateObject var viewModel = CreateChallengeViewModel()
   @State private var isActive: Bool = false
+  
+  var dropdownList: some View {
+    ForEach(viewModel.dropdowns.indices, id: \.self) { index in
+      DropDownView(viewModel: $viewModel.dropdowns[index])
+    }
+  }
   
   var body: some View {
     ScrollView {
       VStack {
-        DropDownView()
-        DropDownView()
-        DropDownView()
-        DropDownView()
+        dropdownList
+        
         Spacer()
         
         NavigationLink(
